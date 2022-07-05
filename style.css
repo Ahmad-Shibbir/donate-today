@@ -1,5 +1,6 @@
 body {
     font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
 }
 
 .top-banner {
@@ -16,14 +17,57 @@ body {
     font-weight: 800;
     color: white;
     background-color: rgba(0, 0, 0, 0.8);
-
     padding: 40px 0;
 
 }
 
+
+
 #Donate-button {
     text-decoration: none;
+    font-size: large;
     background-image: linear-gradient(red, orange);
     padding: 8px 15px;
-    font-size: large;
+    border-radius: 4px;
+}
+
+/*this section for donation */
+.donate-section {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    padding: 50px 0;
+
+}
+
+.donation-amount {
+    display: flex;
+
+
+}
+
+.amount-box {
+    width: 16%;
+    background-color: aliceblue;
+    margin: auto;
+    padding: 10px 5px;
+}
+
+#amount-selected {
+    background-color: antiquewhite;
+    border: red solid 2px;
+}
+
+#amount-input {
+    width: 95%;
+    margin: 20px;
+    text-align: center;
+    padding: 8px;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: #001128;
+    padding: 5px 0;
 }
