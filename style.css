@@ -28,6 +28,7 @@ h1 {
 
 #Donate-button {
     text-decoration: none;
+    color: white;
     font-size: large;
     background-image: linear-gradient(red, orange);
     padding: 8px 15px;
@@ -35,7 +36,7 @@ h1 {
 }
 
 /*this section for donation */
-.donate-section {
+.section-alignment {
     margin: auto;
     width: 50%;
     text-align: center;
